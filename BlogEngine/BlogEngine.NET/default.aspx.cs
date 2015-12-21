@@ -21,7 +21,7 @@ public partial class _default : BlogEngine.Core.Web.Controls.BlogBasePage
 	{
         //Check to see if Client is a SearchEngine or Bot trying to craw the website
         CheckBrowserCaps();
-
+        //test for jenkins
 
 		if (Page.IsCallback)
 			return;
